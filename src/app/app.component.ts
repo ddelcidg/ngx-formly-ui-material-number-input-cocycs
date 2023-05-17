@@ -29,7 +29,7 @@ export class AppComponent {
         min: 0,
         max: 10,
         placeholder: 'Enter a number between 0 and 10',
-        hideButtons: true,
+        hideButtons: false,
         pattern: /^[0-9]+$/,
         patternValidationMessage: 'Only numbers between 0 and 10 are allowed',
       },
